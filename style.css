@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(156, 156, 156);
+}
+.container{
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 900px;
+    height: 500px;
+    border: 2px solid black;
+    margin-top: 120px;
+    background-color: #8fc4ce;
+    border-radius: 14px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.sorteio{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    margin-top: ;
+   
+}
+
+.minimo, .maximo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 31px;
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+.entrada{
+   
+}
+
+.butao{
+    margin-top: 20px;
+    width: 275px;
+    height: 34px;
+    font-size: 25px;
+    border-radius: 9px;
+    margin-top: 65px;
+    transition: 0.3s ease-in-out;
+}
+
+.butao:hover{
+    transform: scale(1.1);
+    box-shadow: 7px 7px 7px 0px rgba(0, 0, 0, 0.4);
+}
+
+
+.insira{
+    margin-top: 20px;
+    font-size: 23px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.num1, .num2{
+    height: 33px;
+    width: 300px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 9px;
+    text-align: center;
+}
+
+.entrada1{
+    margin-top: 45px;
+}
+
+.entrada2{
+    margin-top: 45px;
+}
